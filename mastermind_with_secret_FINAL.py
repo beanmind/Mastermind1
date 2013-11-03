@@ -15,7 +15,7 @@ def test_integer():
     
 
 # program
-round = 0
+turn = 0
 red = 0
 
 secret = []
@@ -31,7 +31,7 @@ print " Bonjour Monsieur Poulpe, time to use your neurons!"
 
 while red < 4:
     # guess
-    round = round + 1
+    turn = turn + 1
     print " Make a guess for the first number (between 1 and 8)"
     a = test_integer()
     print " Make a guess for the second number (between 1 and 8)" 
@@ -57,7 +57,7 @@ while red < 4:
             red = red + 1 
         if red == 4:
             print " There we go! T'es trop fort!    >0     =0    >0    =0 "
-            print " And you made it in ", round, "round(s)."
+            print " And you made it in ", turn, "turn(s)."
             print " Allez, go back to Landscape xx"
                 
     # checking for whites        
